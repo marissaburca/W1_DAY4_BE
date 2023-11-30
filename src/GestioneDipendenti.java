@@ -24,12 +24,18 @@ public class GestioneDipendenti{
 
         //con altro ciclo for promuovo ogni dipendente e ne stampo nuovamente lo stato coi dati aggiornati
         System.out.println("State of employee after promotion *****************************+");
-        for (Dipendente dipendente : dipendenti) {
+        /*for (Dipendente dipendente : dipendenti) {
             dipendente.promuovi();
             dipendente.stampaDatiDipendente();
             System.out.println("****************************");
-        }
-
+        }*/
+        //traccia ambigua, ora promuovo un solo operaio e un solo impiegato
+        dipendenti[1].promuovi();
+        dipendenti[1].stampaDatiDipendente();
+        System.out.println("****************************");
+        dipendenti[2].promuovi();
+        dipendenti[2].stampaDatiDipendente();
+        System.out.println("****************************");
 
         //setto valore iniziale 0 per poi sommarlo di volta in volta ad ogni ciclo for con il valore di
         //salaryWithExtra ..che applica il metodo calcolaPaga ad ogni dipendente.
