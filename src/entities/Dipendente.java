@@ -30,9 +30,7 @@ public class Dipendente {
         return stipendioBase;
     }
 
-    public int getMatricola() {
-        return matricola;
-    }
+
 
     public double getStipendio() {
         return stipendio;
